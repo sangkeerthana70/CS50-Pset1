@@ -26,7 +26,7 @@ int main(void)
         balance = f * 100;
         printf("Multiplied by 100: %i\n", balance);
         //check for quarters
-        if (balance >= 25)
+        if (balance >= q)
         {
             g = balance / q;
             printf("No of Quarters: %i\n", g);
@@ -36,7 +36,7 @@ int main(void)
             printf("remaining balance: %i\n", balance);
         }
         //check for dimes
-        if (balance >= 10)
+        if (balance >= d)
         {
             g = balance / d;
             printf("No of dimes: %i\n", g);
@@ -46,7 +46,7 @@ int main(void)
             printf("remaining balance: %i\n", balance);
         }
         //check for nickel
-        if (balance >= 5)
+        if (balance >= n)
         {
             g = balance / n;
             printf("No of nickel: %i\n", g);
