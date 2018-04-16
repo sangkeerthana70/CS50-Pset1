@@ -5,7 +5,7 @@
 int main(void)
 {
     float f;
-   // int a;
+    // int a;
     int q = 25;
     int d = 10;
     int n = 5;
@@ -32,7 +32,7 @@ int main(void)
             printf("No of Quarters: %i\n", g);
             coins = coins + g;
             printf("Coins used: %i\n", coins);
-            balance = balance % q;
+            balance = balance % q;//use modulus to find the balance
             printf("remaining balance: %i\n", balance);
         }
         //check for dimes
@@ -42,7 +42,7 @@ int main(void)
             printf("No of dimes: %i\n", g);
             coins = coins + g;
             printf("Coins used: %i\n", coins);
-            balance = balance % d;
+            balance = balance % d;//use modulus to find the balance
             printf("remaining balance: %i\n", balance);
         }
         //check for nickel
@@ -52,7 +52,7 @@ int main(void)
             printf("No of nickel: %i\n", g);
             coins = coins + g;
             printf("Coins used: %i\n", coins);
-            balance = balance % n;
+            balance = balance % n;//use modulus to find out the balance
             printf("rem: %i\n", balance);
         }
         //check for pennies
